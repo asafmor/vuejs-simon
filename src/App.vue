@@ -3,94 +3,228 @@
 <div class="container h-100">
 	<div class="row justify-content-center align-items-center">
 
-		<svg id="simon" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640" width="80%" height="80%">
-			<defs>
-				<path d="M534.65 316.8C534.65 441.88 433.1 543.42 308.03 543.42C182.95 543.42 81.41 441.88 81.41 316.8C81.41 191.73 182.95 90.18 308.03 90.18C433.1 90.18 534.65 191.73 534.65 316.8Z" id="fUNWitc9x"/>
-				<path d="M531.44 316.8C531.44 440.11 431.33 540.22 308.03 540.22C184.72 540.22 84.61 440.11 84.61 316.8C84.61 193.49 184.72 93.38 308.03 93.38C431.33 93.38 531.44 193.49 531.44 316.8Z" id="e3rqTSyMc4"/>
-				<path d="M321.68 213.43C349.15 213.98 402.94 243.71 411.34 303.96C411.95 308.08 414.47 310.01 418.89 309.76L513.15 309.76C518.61 309.97 520.67 305.85 519.34 297.39C506.6 199.92 446.01 119.59 321.92 104.63C316.85 103.88 314.39 105.9 314.54 110.71C314.54 162.07 314.54 194.16 314.54 207C314.54 207 314.6 207.96 314.6 207.96C315.05 211.55 317.41 213.38 321.68 213.43Z" id="agv5yLrw9"/>
-				<path d="M321.68 213.43C349.15 213.98 402.94 243.71 411.34 303.96C411.95 308.08 414.47 310.01 418.89 309.76L513.15 309.76C518.61 309.97 520.67 305.85 519.34 297.39C506.6 199.92 446.01 119.59 321.92 104.63C316.85 103.88 314.39 105.9 314.54 110.71C314.54 162.07 314.54 194.16 314.54 207C314.54 207 314.6 207.96 314.6 207.96C315.05 211.55 317.41 213.38 321.68 213.43Z" id="a1HfjPdn2f"/>
-				<path d="M323.2 211.95C350.67 212.5 404.46 242.23 412.86 302.48C413.47 306.6 415.99 308.53 420.41 308.27L514.67 308.27C520.13 308.48 522.19 304.36 520.86 295.91C508.11 198.43 447.53 118.11 323.43 103.15C318.37 102.39 315.91 104.42 316.06 109.23C316.06 160.58 316.06 192.68 316.06 205.52C316.06 205.52 316.12 206.47 316.12 206.47C316.57 210.07 318.93 211.89 323.2 211.95Z" id="c2mz1nhnhG"/>
-				<radialGradient id="gradientab8qVsQKp" gradientUnits="userSpaceOnUse" cx="310.22" cy="314.92" dx="454.65" dy="157.11" r="213.92">
-					<stop style="stop-color: #ffffff;stop-opacity: 1" offset="0%"/>
-					<stop style="stop-color: #e00000;stop-opacity: 1" offset="100%"/>
-				</radialGradient>
-				<path d="M321.85 420.4C349.32 419.84 403.11 390.11 411.51 329.86C412.12 325.74 414.64 323.81 419.06 324.07L513.32 324.07C518.78 323.86 520.84 327.98 519.51 336.43C506.76 433.91 446.18 514.23 322.09 529.19C317.02 529.95 314.56 527.92 314.71 523.11C314.71 471.76 314.71 439.66 314.71 426.82C314.71 426.82 314.77 425.87 314.77 425.87C315.22 422.27 317.58 420.45 321.85 420.4Z" id="a1tepp1275"/>
-				<path d="M294.21 419.9C266.74 419.35 212.95 389.62 204.55 329.37C203.94 325.25 201.42 323.32 197 323.57L102.73 323.57C97.28 323.36 95.22 327.48 96.55 335.94C109.29 433.41 169.88 513.74 293.97 528.7C299.04 529.45 301.49 527.43 301.35 522.61C301.35 471.26 301.35 439.17 301.35 426.33C301.35 426.33 301.29 425.37 301.29 425.37C300.84 421.78 298.48 419.95 294.21 419.9Z" id="d21TjpS7EM"/>
-				<path d="M292.86 421.74C265.39 421.19 211.6 391.46 203.2 331.21C202.59 327.09 200.07 325.16 195.65 325.42L101.38 325.42C95.93 325.21 93.87 329.33 95.2 337.78C107.94 435.26 168.53 515.58 292.62 530.54C297.69 531.3 300.15 529.27 300 524.46C300 473.11 300 441.01 300 428.17C300 428.17 299.94 427.22 299.94 427.22C299.49 423.62 297.13 421.8 292.86 421.74Z" id="a9V6Vn32vU"/>
-				<radialGradient id="gradienta1Mn8PIBOG" gradientUnits="userSpaceOnUse" cx="308.03" cy="316.8" dx="168.32" dy="477.31" r="212.79">
-					<stop style="stop-color: #ffffff;stop-opacity: 1" offset="0%"/>
-					<stop style="stop-color: #ffd500;stop-opacity: 1" offset="100%"/>
-				</radialGradient>
-				<path d="M293.83 213.43C266.36 213.98 212.57 243.71 204.18 303.96C203.56 308.08 201.04 310.01 196.62 309.76L102.36 309.76C96.9 309.97 94.84 305.85 96.18 297.39C108.92 199.92 169.5 119.59 293.6 104.63C298.66 103.88 301.12 105.9 300.97 110.71C300.97 162.07 300.97 194.16 300.97 207C300.97 207 300.91 207.96 300.91 207.96C300.46 211.55 298.1 213.38 293.83 213.43Z" id="a5g4P9GEa"/>
-				<path d="M292.86 211.95C265.39 212.5 211.6 242.23 203.2 302.48C202.59 306.6 200.07 308.53 195.65 308.27L101.38 308.27C95.93 308.48 93.87 304.36 95.2 295.91C107.94 198.43 168.53 118.11 292.62 103.15C297.69 102.39 300.15 104.42 300 109.23C300 160.58 300 192.68 300 205.52C300 205.52 299.94 206.47 299.94 206.47C299.49 210.07 297.13 211.89 292.86 211.95Z" id="a9IMrUopw"/>
-				<radialGradient id="gradientb9gNPXX34" gradientUnits="userSpaceOnUse" cx="310.79" cy="325.4" dx="158.26" dy="161.52" r="223.88">
-					<stop style="stop-color: #ffffff;stop-opacity: 1" offset="0%"/>
-					<stop style="stop-color: #00c307;stop-opacity: 1" offset="100%"/>
-				</radialGradient>
-				<path d="M323.2 421.74C350.67 421.19 404.46 391.46 412.86 331.21C413.47 327.09 415.99 325.16 420.41 325.42L514.67 325.42C520.13 325.21 522.19 329.33 520.86 337.78C508.11 435.26 447.53 515.58 323.43 530.54C318.37 531.3 315.91 529.27 316.06 524.46C316.06 473.11 316.06 441.01 316.06 428.17C316.06 428.17 316.12 427.22 316.12 427.22C316.57 423.62 318.93 421.8 323.2 421.74Z" id="naWIn1awR"/>
-				<radialGradient id="gradienta2UogFVCj9" gradientUnits="userSpaceOnUse" cx="311.34" cy="316.8" dx="469.94" dy="453.68" r="209.51">
-					<stop style="stop-color: #ffffff;stop-opacity: 1" offset="0%"/>
-					<stop style="stop-color: #007ed7;stop-opacity: 1" offset="100%"/>
-				</radialGradient>
-				<path d="M346.01 353.79C346.01 359.7 341.21 364.5 335.29 364.5C329.38 364.5 324.57 359.7 324.57 353.79C324.57 347.87 329.38 343.07 335.29 343.07C341.21 343.07 346.01 347.87 346.01 353.79Z" id="i11HKExN"/>
-				<radialGradient id="gradientfayfFvOuH" gradientUnits="userSpaceOnUse" cx="335.29" cy="354.28" dx="335.29" dy="370.82" r="16.54">
-					<stop style="stop-color: #cff3c7;stop-opacity: 1" offset="0%"/>
-					<stop style="stop-color: #00cc00;stop-opacity: 1" offset="100%"/>
-				</radialGradient>
-				<path d="M294.41 340.82C295.34 340.82 296.09 341.57 296.09 342.5C296.09 347.31 296.09 360.04 296.09 364.85C296.09 365.78 295.34 366.54 294.41 366.54C289.76 366.54 277.5 366.54 272.86 366.54C271.93 366.54 271.17 365.78 271.17 364.85C271.17 360.04 271.17 347.31 271.17 342.5C271.17 341.57 271.93 340.82 272.86 340.82C277.5 340.82 289.76 340.82 294.41 340.82Z" id="bIzLsERYl"/>
-						<text id="gui1CQlxQ" x="284.23" y="364.5" font-size="12" font-family="Orbitron" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -0.6020728451400714 -18.326759960665754)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
-					<tspan x="284.23" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="middle">{{round}}</tspan>
-				</text>
-			</defs>
+<svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 640" width="80%" height="80%">
+	<defs>
+		<path d="M620.94 312.45C620.94 482.26 483.08 620.12 313.27 620.12C143.46 620.12 5.6 482.26 5.6 312.45C5.6 142.64 143.46 4.77 313.27 4.77C483.08 4.77 620.94 142.64 620.94 312.45Z" id="b5O6jNK65I"/>
+		<path d="M616.59 311.99C616.59 479.4 480.68 615.31 313.27 615.31C145.86 615.31 9.95 479.4 9.95 311.99C9.95 144.58 145.86 8.67 313.27 8.67C480.68 8.67 616.59 144.58 616.59 311.99Z" id="b1ATkTw4D"/>
+		<path d="M334.03 173.98C371.33 174.73 444.35 215.1 455.75 296.89C456.59 302.49 460 305.11 466.01 304.76L593.99 304.76C601.39 305.05 604.19 299.45 602.38 287.97C585.08 155.64 502.83 46.58 334.35 26.28C327.48 25.25 324.14 28 324.34 34.53C324.34 104.25 324.34 147.82 324.34 165.25C324.34 165.25 324.42 166.55 324.42 166.55C325.03 171.43 328.23 173.91 334.03 173.98Z" id="ag8uPx9hz"/>
+		<radialGradient id="gradientb2IS9jSjMK" gradientUnits="userSpaceOnUse" cx="312.56" cy="314.65" dx="512.56" dy="103.82" r="290.6">
+			<stop style="stop-color: #919191;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #8b2a2a;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M333.86 458.82C371.16 458.07 444.19 417.7 455.59 335.91C456.42 330.31 459.84 327.69 465.84 328.04L593.82 328.04C601.22 327.75 604.02 333.35 602.21 344.83C584.91 477.16 502.66 586.22 334.18 606.52C327.31 607.55 323.97 604.8 324.17 598.27C324.17 528.55 324.17 484.98 324.17 467.55C324.17 467.55 324.25 466.25 324.25 466.25C324.86 461.37 328.06 458.89 333.86 458.82Z" id="c1xbECf2XY"/>
+		<radialGradient id="gradientb1YdLxilm9" gradientUnits="userSpaceOnUse" cx="317.76" cy="316.34" dx="533.09" dy="502.18" r="284.44">
+			<stop style="stop-color: #868686;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #2b458b;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M292.67 173.98C255.37 174.73 182.35 215.1 170.95 296.89C170.12 302.49 166.7 305.11 160.7 304.76L32.72 304.76C25.31 305.05 22.51 299.45 24.32 287.97C41.62 155.64 123.88 46.58 292.35 26.28C299.23 25.25 302.57 28 302.37 34.53C302.37 104.25 302.37 147.82 302.37 165.25C302.37 165.25 302.29 166.55 302.29 166.55C301.68 171.43 298.47 173.91 292.67 173.98Z" id="e1lqkzlwZ"/>
+		<radialGradient id="gradienta28n5R2ZL5" gradientUnits="userSpaceOnUse" cx="317.02" cy="328.01" dx="109.94" dy="105.52" r="303.95">
+			<stop style="stop-color: #868686;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #3d8629;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M292.67 458.82C255.37 458.07 182.35 417.7 170.95 335.91C170.12 330.31 166.7 327.69 160.7 328.04L32.72 328.04C25.31 327.75 22.51 333.35 24.32 344.83C41.62 477.16 123.88 586.22 292.35 606.52C299.23 607.55 302.57 604.8 302.37 598.27C302.37 528.55 302.37 484.98 302.37 467.55C302.37 467.55 302.29 466.25 302.29 466.25C301.68 461.37 298.47 458.89 292.67 458.82Z" id="d7NJnwPZYk"/>
+		<radialGradient id="gradientbr3nZsTZZ" gradientUnits="userSpaceOnUse" cx="313.27" cy="316.34" dx="123.59" dy="534.25" r="288.9">
+			<stop style="stop-color: #838383;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #988d23;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M395.36 366.4C395.36 374.43 388.84 380.95 380.81 380.95C372.78 380.95 366.26 374.43 366.26 366.4C366.26 358.37 372.78 351.85 380.81 351.85C388.84 351.85 395.36 358.37 395.36 366.4Z" id="b3j1HVZrQ7"/>
+		<radialGradient id="gradienta1loxlWs7k" gradientUnits="userSpaceOnUse" cx="380.81" cy="367.08" dx="380.81" dy="389.54" r="22.46">
+			<stop style="stop-color: #cff3c7;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #00cc00;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M345.14 348.94C346.41 348.94 347.43 349.97 347.43 351.24C347.43 357.76 347.43 375.05 347.43 381.57C347.43 382.84 346.41 383.86 345.14 383.86C317.85 383.86 238.25 383.86 210.95 383.86C209.69 383.86 208.66 382.84 208.66 381.57C208.66 375.05 208.66 357.76 208.66 351.24C208.66 349.97 209.69 348.94 210.95 348.94C238.25 348.94 317.85 348.94 345.14 348.94Z" id="d42b1kmhzH"/>
+		<text id="b5wfxce731" x="287.8" y="364.5" font-size="18" font-family="Orbitron" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -9.749679199845474 -8.658966502552005)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+			<tspan x="287.8" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="middle">{{round}}</tspan>
+		</text>
+		<text id="d2mmi925dM" x="431.95" y="258.28" font-size="99" font-family="Squada One" font-weight="700" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -119.38737523245457 -26.005228928791112)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+			<tspan x="431.95" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="middle">SIMON</tspan>
+		</text>
+		<text id="coWxng37v" x="375.85" y="398.36" font-size="18" font-family="Squada One" font-weight="100" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 4.962522632136341 -12.89838089346307)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+			<tspan x="375.85" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="middle">START</tspan>
+		</text>
+		<text id="eTMzGoI67" x="376.68" y="398.36" font-size="18" font-family="Squada One" font-weight="100" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -98.6284911329428 -12.89838089346307)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+			<tspan x="376.68" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="middle">COUNT</tspan>
+		</text>
+		<path d="M334.03 173.98C371.33 174.73 444.35 215.1 455.75 296.89C456.59 302.49 460 305.11 466.01 304.76L593.99 304.76C601.39 305.05 604.19 299.45 602.38 287.97C585.08 155.64 502.83 46.58 334.35 26.28C327.48 25.25 324.14 28 324.34 34.53C324.34 104.25 324.34 147.82 324.34 165.25C324.34 165.25 324.42 166.55 324.42 166.55C325.03 171.43 328.23 173.91 334.03 173.98Z" id="b5iNIYtzah"/>
+		<radialGradient id="gradienta3Rr1He0po" gradientUnits="userSpaceOnUse" cx="460.53" cy="165.43" dx="636.26" dy="0" r="241.34">
+			<stop style="stop-color: #ffb6b6;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #ff0000;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M334.03 458.28C371.33 457.54 444.35 417.17 455.75 335.37C456.59 329.78 460 327.16 466.01 327.51L593.99 327.51C601.39 327.22 604.19 332.81 602.38 344.29C585.08 476.63 502.83 585.68 334.35 605.99C327.48 607.02 324.14 604.27 324.34 597.74C324.34 528.02 324.34 484.44 324.34 467.01C324.34 467.01 324.42 465.71 324.42 465.71C325.03 460.83 328.23 458.36 334.03 458.28Z" id="bt264fbl7"/>
+		<radialGradient id="gradiente1VZoj1Vat" gradientUnits="userSpaceOnUse" cx="463.62" cy="461.49" dx="640" dy="642.51" r="252.75">
+			<stop style="stop-color: #c5e3ff;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #0045ff;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M292.67 174C255.37 174.75 182.35 215.11 170.95 296.91C170.12 302.5 166.7 305.12 160.7 304.78L32.72 304.78C25.31 305.06 22.51 299.47 24.32 287.99C41.62 155.65 123.88 46.6 292.35 26.29C299.23 25.26 302.57 28.01 302.37 34.55C302.37 104.27 302.37 147.84 302.37 165.27C302.37 165.27 302.29 166.57 302.29 166.57C301.68 171.45 298.47 173.93 292.67 174Z" id="e54nxqSyM"/>
+		<radialGradient id="gradienta8QEcvvT9" gradientUnits="userSpaceOnUse" cx="164.92" cy="171.95" dx="0" dy="0" r="238.25">
+			<stop style="stop-color: #f2ffec;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #1dc700;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+		<path d="M292.67 459.21C255.37 458.47 182.35 418.1 170.95 336.3C170.12 330.71 166.7 328.09 160.7 328.43L32.72 328.43C25.31 328.15 22.51 333.74 24.32 345.22C41.62 477.56 123.88 586.61 292.35 606.92C299.23 607.95 302.57 605.2 302.37 598.66C302.37 528.95 302.37 485.37 302.37 467.94C302.37 467.94 302.29 466.64 302.29 466.64C301.68 461.76 298.47 459.29 292.67 459.21Z" id="a1TXPSwdXt"/>
+		<radialGradient id="gradientaJksW0yy7" gradientUnits="userSpaceOnUse" cx="168.41" cy="456.92" dx="2.1" dy="640" r="247.34">
+			<stop style="stop-color: #fffbe3;stop-opacity: 1" offset="0%"/>
+			<stop style="stop-color: #ffe700;stop-opacity: 1" offset="100%"/>
+		</radialGradient>
+	</defs>
+	<g>
+		<g>
 			<g>
 				<g>
-					<g>
-						<use xlink:href="#fUNWitc9x" opacity="1" fill="#5f5f5f" fill-opacity="1"/>
-					</g>
-					<g>
-						<use xlink:href="#e3rqTSyMc4" opacity="1" fill="#262626" fill-opacity="1"/>
-					</g>
-					<g>
-						<use xlink:href="#agv5yLrw9" opacity="1" fill="#ffb6b6" fill-opacity="1"/>
-					</g>
-					<g>
-						<use xlink:href="#a1HfjPdn2f" opacity="1" fill="#ffc3c3" fill-opacity="1"/>
-					</g>
-					<g class="game-button" @mousedown="press('red')" :class="{'highlight': pressed.red}">
-						<use xlink:href="#c2mz1nhnhG" opacity="1" fill="url(#gradientab8qVsQKp)"/>
-					</g>
-					<g>
-						<use xlink:href="#a1tepp1275" opacity="1" fill="#bfe9ff" fill-opacity="1"/>
-					</g>
-					<g>
-						<use xlink:href="#d21TjpS7EM" opacity="1" fill="#fff6a3" fill-opacity="1"/>
-					</g>
-					<g class="game-button" @mousedown="press('blue')" :class="{'highlight': pressed.blue}">
-						<use xlink:href="#a9V6Vn32vU" opacity="1" fill="url(#gradienta1Mn8PIBOG)"/>
-					</g>
-					<g>
-						<use xlink:href="#a5g4P9GEa" opacity="1" fill="#affea9" fill-opacity="1"/>
-					</g>
-					<g class="game-button" @mousedown="press('green')" :class="{'highlight': pressed.green}" style="background-color: black;">
-						<use xlink:href="#a9IMrUopw" opacity="1" fill="url(#gradientb9gNPXX34)"/>
-					</g>
-					<g class="game-button" @mousedown="press('yellow')" :class="{'highlight': pressed.yellow}">
-						<use xlink:href="#naWIn1awR" opacity="1" fill="url(#gradienta2UogFVCj9)"/>
-					</g>
-					<g class="game-button" @click="startGame()">
-						<use xlink:href="#i11HKExN" opacity="1" fill="url(#gradientfayfFvOuH)"/>
-					</g>
-					<g>
-						<use xlink:href="#bIzLsERYl" opacity="1" fill="#000000" fill-opacity="1"/>
-					</g>
-					<g id="emO5G7gYG">
-						<use xlink:href="#gui1CQlxQ" opacity="1" fill="#ffffff" fill-opacity="1"/>
-					</g>
+					<filter id="shadow14760793" x="-82.4" y="-83.23" width="794.34" height="794.34" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="6.32"/>
+						<feOffset dx="3" dy="3" result="afterOffset"/>
+						<feFlood flood-color="#575757" flood-opacity="0.5"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M620.94 312.45C620.94 482.26 483.08 620.12 313.27 620.12C143.46 620.12 5.6 482.26 5.6 312.45C5.6 142.64 143.46 4.77 313.27 4.77C483.08 4.77 620.94 142.64 620.94 312.45Z" id="j1elp0GUoD" fill="white" fill-opacity="1" filter="url(#shadow14760793)"/>
+				</g>
+				<use xlink:href="#b5O6jNK65I" opacity="1" fill="#5f5f5f" fill-opacity="1"/>
+			</g>
+			<g>
+				<use xlink:href="#b1ATkTw4D" opacity="1" fill="#262626" fill-opacity="1"/>
+			</g>
+			<g>
+				<use xlink:href="#ag8uPx9hz" opacity="1" fill="url(#gradientb2IS9jSjMK)"/>
+			</g>
+			<g>
+				<use xlink:href="#c1xbECf2XY" opacity="1" fill="url(#gradientb1YdLxilm9)"/>
+			</g>
+			<g>
+				<use xlink:href="#e1lqkzlwZ" opacity="1" fill="url(#gradienta28n5R2ZL5)"/>
+			</g>
+			<g>
+				<use xlink:href="#d7NJnwPZYk" opacity="1" fill="url(#gradientbr3nZsTZZ)"/>
+			</g>
+			<g class="game-button" @click="startGame()">
+				<g>
+					<filter id="shadow10363558" x="330.26" y="315.85" width="103.1" height="102.1" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="3.74"/>
+						<feOffset dx="2" dy="1" result="afterOffset"/>
+						<feFlood flood-color="#000000" flood-opacity="0.5"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="1"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M395.36 366.4C395.36 374.43 388.84 380.95 380.81 380.95C372.78 380.95 366.26 374.43 366.26 366.4C366.26 358.37 372.78 351.85 380.81 351.85C388.84 351.85 395.36 358.37 395.36 366.4Z" id="eZCCgCknS" fill="white" fill-opacity="1" filter="url(#shadow10363558)"/>
+				</g>
+				<use xlink:href="#b3j1HVZrQ7" opacity="1" fill="url(#gradienta1loxlWs7k)"/>
+				<g>
+					<filter id="shadow16499807" x="357.26" y="342.85" width="48.1" height="48.1" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+						<feGaussianBlur stdDeviation="1"/>
+						<feOffset dx="1" dy="1" result="afterOffset"/>
+						<feFlood flood-color="#ffffff" flood-opacity="0.8"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="1"/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+					</filter>
+					<path d="M395.36 366.4C395.36 374.43 388.84 380.95 380.81 380.95C372.78 380.95 366.26 374.43 366.26 366.4C366.26 358.37 372.78 351.85 380.81 351.85C388.84 351.85 395.36 358.37 395.36 366.4Z" id="ac0fHtqOj" fill="white" fill-opacity="1" filter="url(#shadow16499807)"/>
 				</g>
 			</g>
-		</svg>
+			<g>
+				<g>
+					<filter id="shadow15025209" x="199.66" y="339.94" width="156.77" height="52.92" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="1.41"/>
+						<feOffset dx="0" dy="0" result="afterOffset"/>
+						<feFlood flood-color="#777777" flood-opacity="0.5"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M345.14 348.94C346.41 348.94 347.43 349.97 347.43 351.24C347.43 357.76 347.43 375.05 347.43 381.57C347.43 382.84 346.41 383.86 345.14 383.86C317.85 383.86 238.25 383.86 210.95 383.86C209.69 383.86 208.66 382.84 208.66 381.57C208.66 375.05 208.66 357.76 208.66 351.24C208.66 349.97 209.69 348.94 210.95 348.94C238.25 348.94 317.85 348.94 345.14 348.94Z" id="b19d9cCMyx" fill="white" fill-opacity="1" filter="url(#shadow15025209)"/>
+				</g>
+				<use xlink:href="#d42b1kmhzH" opacity="1" fill="#000000" fill-opacity="1"/>
+			</g>
+			<g id="d1lIQowAC">
+				<use xlink:href="#b5wfxce731" opacity="1" fill="#ff5656" fill-opacity="1"/>
+			</g>
+			<g id="bcnhULBPI">
+				<use xlink:href="#d2mmi925dM" opacity="1" fill="#eaeaea" fill-opacity="1"/>
+			</g>
+			<g id="b2p0EvMXAK">
+				<use xlink:href="#coWxng37v" opacity="1" fill="#e9e9e9" fill-opacity="1"/>
+			</g>
+			<g id="j1BoW2jfKr">
+				<use xlink:href="#eTMzGoI67" opacity="1" fill="#e9e9e9" fill-opacity="1"/>
+			</g>
+			<g class="game-button" @mousedown="press('red')" :opacity="pressed.red ? 1 : 0">
+				<g>
+					<filter id="shadow14656475" x="316.33" y="18.07" width="295.58" height="295.73" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="1"/>
+						<feOffset dx="-1" dy="1" result="afterOffset"/>
+						<feFlood flood-color="#ffffff" flood-opacity="1"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M334.03 173.98C371.33 174.73 444.35 215.1 455.75 296.89C456.59 302.49 460 305.11 466.01 304.76L593.99 304.76C601.39 305.05 604.19 299.45 602.38 287.97C585.08 155.64 502.83 46.58 334.35 26.28C327.48 25.25 324.14 28 324.34 34.53C324.34 104.25 324.34 147.82 324.34 165.25C324.34 165.25 324.42 166.55 324.42 166.55C325.03 171.43 328.23 173.91 334.03 173.98Z" id="b4Ys2ymc" fill="white" fill-opacity="1" filter="url(#shadow14656475)"/>
+				</g>
+				<use xlink:href="#b5iNIYtzah" opacity="1" fill="url(#gradienta3Rr1He0po)"/>
+			</g>
+			<g class="game-button" @mousedown="press('blue')" :opacity="pressed.blue ? 1 : 0">
+				<g>
+					<filter id="shadow7258212" x="316.33" y="319.48" width="295.58" height="295.73" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="1"/>
+						<feOffset dx="-1" dy="-1" result="afterOffset"/>
+						<feFlood flood-color="#ffffff" flood-opacity="1"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M334.03 458.28C371.33 457.54 444.35 417.17 455.75 335.37C456.59 329.78 460 327.16 466.01 327.51L593.99 327.51C601.39 327.22 604.19 332.81 602.38 344.29C585.08 476.63 502.83 585.68 334.35 605.99C327.48 607.02 324.14 604.27 324.34 597.74C324.34 528.02 324.34 484.44 324.34 467.01C324.34 467.01 324.42 465.71 324.42 465.71C325.03 460.83 328.23 458.36 334.03 458.28Z" id="b4jiq6uL4" fill="white" fill-opacity="1" filter="url(#shadow7258212)"/>
+				</g>
+				<use xlink:href="#bt264fbl7" opacity="1" fill="url(#gradiente1VZoj1Vat)"/>
+			</g>
+			<g class="game-button" @mousedown="press('green')" :opacity="pressed.green ? 1 : 0">
+				<g>
+					<filter id="shadow1445561" x="15.79" y="18.08" width="295.58" height="295.73" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="1"/>
+						<feOffset dx="1" dy="1" result="afterOffset"/>
+						<feFlood flood-color="#ffffff" flood-opacity="1"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M292.67 174C255.37 174.75 182.35 215.11 170.95 296.91C170.12 302.5 166.7 305.12 160.7 304.78L32.72 304.78C25.31 305.06 22.51 299.47 24.32 287.99C41.62 155.65 123.88 46.6 292.35 26.29C299.23 25.26 302.57 28.01 302.37 34.55C302.37 104.27 302.37 147.84 302.37 165.27C302.37 165.27 302.29 166.57 302.29 166.57C301.68 171.45 298.47 173.93 292.67 174Z" id="bFTajvYbZ" fill="white" fill-opacity="1" filter="url(#shadow1445561)"/>
+				</g>
+				<use xlink:href="#e54nxqSyM" opacity="1" fill="url(#gradienta8QEcvvT9)"/>
+			</g>
+			<g class="game-button" @mousedown="press('yellow')" :opacity="pressed.yellow ? 1 : 0">
+				<g>
+					<filter id="shadow12954394" x="15.79" y="320.4" width="295.58" height="295.73" filterUnits="userSpaceOnUse" primitiveUnits="userSpaceOnUse">
+						<feFlood/>
+						<feComposite in2="SourceAlpha" operator="in"/>
+						<feGaussianBlur stdDeviation="1"/>
+						<feOffset dx="1" dy="-1" result="afterOffset"/>
+						<feFlood flood-color="#ffffff" flood-opacity="1"/>
+						<feComposite in2="afterOffset" operator="in"/>
+						<feMorphology operator="dilate" radius="0"/>
+						<feComposite in2="SourceAlpha" operator="out"/>
+					</filter>
+					<path d="M292.67 459.21C255.37 458.47 182.35 418.1 170.95 336.3C170.12 330.71 166.7 328.09 160.7 328.43L32.72 328.43C25.31 328.15 22.51 333.74 24.32 345.22C41.62 477.56 123.88 586.61 292.35 606.92C299.23 607.95 302.57 605.2 302.37 598.66C302.37 528.95 302.37 485.37 302.37 467.94C302.37 467.94 302.29 466.64 302.29 466.64C301.68 461.76 298.47 459.29 292.67 459.21Z" id="bkqQwaWXk" fill="white" fill-opacity="1" filter="url(#shadow12954394)"/>
+				</g>
+				<use xlink:href="#a1TXPSwdXt" opacity="1" fill="url(#gradientaJksW0yy7)"/>
+			</g>
+		</g>
+	</g>
+</svg>
 
-    </div>
+  </div>
 </div>
 </div>
 </template>
@@ -240,13 +374,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.buttons-panel {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.3vw;
-}
-
 .game-button {
   cursor: pointer;
   width: 200px;
