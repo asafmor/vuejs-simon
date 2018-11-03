@@ -2,4 +2,4 @@
 
 WIP
 
-![Image of Simon](./src/assets/simon.svg)
+![Image of Simon](./src/assets/example.png)
